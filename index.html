@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>My Zoo</h1>
+    <p>Use Javascript and the DOM to add animals ro each cage!</p>
+
+    <div id="zoo">
+    <div class="zone">Zone 1: <span id="zone1"></span></div>
+    <div class="zone">Zone 2: <span id="zone2"></span></div>
+    <div class="zone">Zone 3: <span id="zone3"></span></div>
+    <div class="zone">Total Animals:<span id="total"></span></div>
+    </div>
+
+    <br>
+    <button onclick="openZoo()">Open The Zoo</button>
+    <p id="zoo-status"></p>
+
+    <script>
+
+        function openZoo() {
+            /* Task 1: Add Your First Animal To Zone 1 */
+            documnt.getElementById("zone1").innerHTML = "Lion";
+               
+            /* Task 2: Add Your Second Animal To Zone 2 */
+            documnt.getElementById("zone2").innerHTML = "Elephant";
+
+            /* Task 3: Add Your Third Animal To Zone 3 */
+            documnt.getElementById("zone3").innerHTML = "Penguin";
+            
+            /* Task 4: Show The Total NUmber Of Kittles*/
+            documnt.getElementById("zone1").innerHTML = "3";
+            
+            /* Task 5: Change THe Zoo Background Color */
+            documnt.getElementById("zone1").style.background = "lightgreen";
+
+            /* Task 6: Use the document object to show the page title */
+            documnt.getElementById("zone1").innerHTML = document.title + "is now open!";
+        
+        }
+    
+    </script>
+
+
+
+</br>
+</body>
+</html>
